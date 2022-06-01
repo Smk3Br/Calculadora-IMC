@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 60rem;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: cadetblue;
+}
+
+.container {
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: gainsboro;
+}
+
+.container h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.container table {
+    font-size: 1.8rem;
+}
+
+.container table thead {
+    font-weight: bold;
+}
+
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.container form label {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.6rem;
+}
+
+.container form input {
+    font-size: 2rem;
+    padding: 1rem;
+    height: 5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.container form input:focus {
+    box-shadow: 0 0 0.5rem 0.1rem cadetblue;
+    border: none;
+}
+
+.container form button {
+    margin-top: 3rem;
+    background-color: cadetblue;
+    border: none;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: rgb(72, 140, 160);
+}
+
+.resultado {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+.bg-verde {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: green;
+    border: solid 0.4rem darkgreen;
+}
+
+.bg-vermelho {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: red;
+    border: solid 0.4rem darkred;
+}
